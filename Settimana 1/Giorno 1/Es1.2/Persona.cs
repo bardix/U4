@@ -10,6 +10,6 @@ namespace Es1._2
     internal class Persona
     {
         public int età;
-        public string nome;
+        public string? nome;
     }
 }
