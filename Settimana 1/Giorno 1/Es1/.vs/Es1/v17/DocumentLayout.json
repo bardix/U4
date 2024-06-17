@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\david\\Desktop\\Epicode\\Esercitazioni Epicode\\Unit\u00E0 4\\Repo mia\\U4\\Settimana 1\\Giorno 1\\Es1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{012A36F5-F18B-4D08-A26D-1CDA21A5E919}|..\\Es1.2\\Es1.2.csproj|c:\\users\\david\\desktop\\epicode\\esercitazioni epicode\\unit\u00E0 4\\repo mia\\u4\\settimana 1\\giorno 1\\es1.2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{012A36F5-F18B-4D08-A26D-1CDA21A5E919}|..\\Es1.2\\Es1.2.csproj|c:\\users\\david\\desktop\\epicode\\esercitazioni epicode\\unit\u00E0 4\\repo mia\\u4\\settimana 1\\giorno 1\\es1.2\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\david\\Desktop\\Epicode\\Esercitazioni Epicode\\Unit\u00E0 4\\Repo mia\\U4\\Settimana 1\\Giorno 1\\Es1.2\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Es1.2\\Program.cs",
+              "ToolTip": "C:\\Users\\david\\Desktop\\Epicode\\Esercitazioni Epicode\\Unit\u00E0 4\\Repo mia\\U4\\Settimana 1\\Giorno 1\\Es1.2\\Program.cs",
+              "RelativeToolTip": "..\\Es1.2\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T21:00:57.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Persona.cs",
+              "DocumentMoniker": "C:\\Users\\david\\Desktop\\Epicode\\Esercitazioni Epicode\\Unit\u00E0 4\\Repo mia\\U4\\Settimana 1\\Giorno 1\\Es1.2\\Persona.cs",
+              "RelativeDocumentMoniker": "..\\Es1.2\\Persona.cs",
+              "ToolTip": "C:\\Users\\david\\Desktop\\Epicode\\Esercitazioni Epicode\\Unit\u00E0 4\\Repo mia\\U4\\Settimana 1\\Giorno 1\\Es1.2\\Persona.cs",
+              "RelativeToolTip": "..\\Es1.2\\Persona.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T21:33:16.018Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

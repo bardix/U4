@@ -1,0 +1,14 @@
+C:\Users\david\Desktop\Epicode\Esercitazioni Epicode\Unità 4\Repo mia\U4\Settimana 1\Giorno 1\Es1\bin\Debug\net8.0\Es1.exe
+C:\Users\david\Desktop\Epicode\Esercitazioni Epicode\Unità 4\Repo mia\U4\Settimana 1\Giorno 1\Es1\bin\Debug\net8.0\Es1.deps.json
+C:\Users\david\Desktop\Epicode\Esercitazioni Epicode\Unità 4\Repo mia\U4\Settimana 1\Giorno 1\Es1\bin\Debug\net8.0\Es1.runtimeconfig.json
+C:\Users\david\Desktop\Epicode\Esercitazioni Epicode\Unità 4\Repo mia\U4\Settimana 1\Giorno 1\Es1\bin\Debug\net8.0\Es1.dll
+C:\Users\david\Desktop\Epicode\Esercitazioni Epicode\Unità 4\Repo mia\U4\Settimana 1\Giorno 1\Es1\bin\Debug\net8.0\Es1.pdb
+C:\Users\david\Desktop\Epicode\Esercitazioni Epicode\Unità 4\Repo mia\U4\Settimana 1\Giorno 1\Es1\obj\Debug\net8.0\Es1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\david\Desktop\Epicode\Esercitazioni Epicode\Unità 4\Repo mia\U4\Settimana 1\Giorno 1\Es1\obj\Debug\net8.0\Es1.AssemblyInfoInputs.cache
+C:\Users\david\Desktop\Epicode\Esercitazioni Epicode\Unità 4\Repo mia\U4\Settimana 1\Giorno 1\Es1\obj\Debug\net8.0\Es1.AssemblyInfo.cs
+C:\Users\david\Desktop\Epicode\Esercitazioni Epicode\Unità 4\Repo mia\U4\Settimana 1\Giorno 1\Es1\obj\Debug\net8.0\Es1.csproj.CoreCompileInputs.cache
+C:\Users\david\Desktop\Epicode\Esercitazioni Epicode\Unità 4\Repo mia\U4\Settimana 1\Giorno 1\Es1\obj\Debug\net8.0\Es1.dll
+C:\Users\david\Desktop\Epicode\Esercitazioni Epicode\Unità 4\Repo mia\U4\Settimana 1\Giorno 1\Es1\obj\Debug\net8.0\refint\Es1.dll
+C:\Users\david\Desktop\Epicode\Esercitazioni Epicode\Unità 4\Repo mia\U4\Settimana 1\Giorno 1\Es1\obj\Debug\net8.0\Es1.pdb
+C:\Users\david\Desktop\Epicode\Esercitazioni Epicode\Unità 4\Repo mia\U4\Settimana 1\Giorno 1\Es1\obj\Debug\net8.0\Es1.genruntimeconfig.cache
+C:\Users\david\Desktop\Epicode\Esercitazioni Epicode\Unità 4\Repo mia\U4\Settimana 1\Giorno 1\Es1\obj\Debug\net8.0\ref\Es1.dll
