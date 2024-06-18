@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\david\\Desktop\\Epicode\\Esercitazioni Epicode\\Unit\u00E0 4\\Repo mia\\U4\\Settimana 1\\Giorno 2\\Es2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3B2D6C16-72C4-471D-B425-EA661C6233C0}|Es2.csproj|c:\\users\\david\\desktop\\epicode\\esercitazioni epicode\\unit\u00E0 4\\repo mia\\u4\\settimana 1\\giorno 2\\es2\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B2D6C16-72C4-471D-B425-EA661C6233C0}|Es2.csproj|solutionrelative:persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B2D6C16-72C4-471D-B425-EA661C6233C0}|Es2.csproj|c:\\users\\david\\desktop\\epicode\\esercitazioni epicode\\unit\u00E0 4\\repo mia\\u4\\settimana 1\\giorno 2\\es2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B2D6C16-72C4-471D-B425-EA661C6233C0}|Es2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Persona.cs",
+              "DocumentMoniker": "C:\\Users\\david\\Desktop\\Epicode\\Esercitazioni Epicode\\Unit\u00E0 4\\Repo mia\\U4\\Settimana 1\\Giorno 2\\Es2\\Persona.cs",
+              "RelativeDocumentMoniker": "Persona.cs",
+              "ToolTip": "C:\\Users\\david\\Desktop\\Epicode\\Esercitazioni Epicode\\Unit\u00E0 4\\Repo mia\\U4\\Settimana 1\\Giorno 2\\Es2\\Persona.cs",
+              "RelativeToolTip": "Persona.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T12:17:11.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\david\\Desktop\\Epicode\\Esercitazioni Epicode\\Unit\u00E0 4\\Repo mia\\U4\\Settimana 1\\Giorno 2\\Es2\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\david\\Desktop\\Epicode\\Esercitazioni Epicode\\Unit\u00E0 4\\Repo mia\\U4\\Settimana 1\\Giorno 2\\Es2\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T12:15:39.446Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
