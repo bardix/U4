@@ -1,0 +1,38 @@
+﻿@using Es_con_console;
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div>
+    <h2>Informazioni Personali</h2>
+    <p>Nome: @Model.InformazioniPersonali.nome</p>
+    <p>Cognome: @Model.InformazioniPersonali.cognome</p>
+    <p>Telefono: @Model.InformazioniPersonali.telefono</p>
+    <p>Email: @Model.InformazioniPersonali.email</p>
+</div>
+
+<div>
+    <h2>Studi e Formazione</h2>
+    @foreach (var studi in Model.StudiEffettuati)
+    {
+        <div>
+            <p>Istituto: @studi.istituto</p>
+            <p>Qualifica: @studi.qualifica</p>
+            <p>Tipo: @studi.tipo</p>
+            <p>Dal: @studi.dal.ToString("dd/MM/yyyy") al @studi.al.ToString("dd/MM/yyyy")</p>
+        </div>
+    }
+</div>
+
+<div>
+    <h2>Esperienze Professionali</h2>
+    @foreach (var impiego in Model.Impieghi)
+    {
+        <div>
+            <p>Presso: @impiego.esperienza.azienda</p>
+            <p>Tipo di lavoro: @impiego.esperienza.jobTitle</p>
+            <p>Compito: @impiego.esperienza.descrizione</p>
+            <p>Dal: @impiego.esperienza.dal.ToString("dd/MM/yyyy") al @impiego.esperienza.al.ToString("dd/MM/yyyy")</p>
+        </div>
+    }
+</div>
