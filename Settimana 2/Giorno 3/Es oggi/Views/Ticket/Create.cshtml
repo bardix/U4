@@ -1,0 +1,25 @@
+﻿@model Ticket
+<h2>Nuovo Biglietto</h2>
+<form asp-action="Create">
+    <div>
+        <label>Nome:</label>
+        <input asp-for="FirstName" />
+    </div>
+    <div>
+        <label>Cognome:</label>
+        <input asp-for="LastName" />
+    </div>
+    <div>
+        <label>Sala:</label>
+        <select asp-for="Hall">
+            <option>SALA NORD</option>
+            <option>SALA EST</option>
+            <option>SALA SUD</option>
+        </select>
+    </div>
+    <div>
+        <label>Tipo:</label>
+        <input type="checkbox" asp-for="IsReduced" /> Ridotto
+    </div>
+    <button type="submit">Aggiungi</button>
+</form>

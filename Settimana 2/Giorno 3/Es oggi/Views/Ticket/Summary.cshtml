@@ -1,0 +1,25 @@
+﻿@model SummaryViewModel
+<h2>Riepilogo Biglietti Venduti</h2>
+<table>
+    <tr>
+        <th>Sala</th>
+        <th>Totale Biglietti</th>
+        <th>Biglietti Ridotti</th>
+    </tr>
+    <tr>
+        <td>SALA NORD</td>
+        <td>@Model.NorthHallTickets</td>
+        <td>@Model.NorthHallReducedTickets</td>
+    </tr>
+    <tr>
+        <td>SALA EST</td>
+        <td>@Model.EastHallTickets</td>
+        <td>@Model.EastHallReducedTickets</td>
+    </tr>
+    <tr>
+        <td>SALA SUD</td>
+        <td>@Model.SouthHallTickets</td>
+        <td>@Model.SouthHallReducedTickets</td>
+    </tr>
+</table>
+<a href="/Ticket/Index">Torna all'elenco dei biglietti</a>

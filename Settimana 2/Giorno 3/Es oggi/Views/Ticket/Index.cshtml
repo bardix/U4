@@ -1,0 +1,21 @@
+﻿@model IEnumerable<Ticket>
+<h2>Elenco dei Biglietti Venduti</h2>
+<table>
+    <tr>
+        <th>Nome</th>
+        <th>Cognome</th>
+        <th>Sala</th>
+        <th>Tipo</th>
+    </tr>
+    @foreach (var ticket in Model)
+    {
+        <tr>
+            <td>@ticket.FirstName</td>
+            <td>@ticket.LastName</td>
+            <td>@ticket.Hall</td>
+            <td>@(ticket.IsReduced ? "Ridotto" : "Intero")</td>
+        </tr>
+    }
+</table>
+<a href="/Ticket/Create">Aggiungi un nuovo biglietto</a>
+<a href="/Ticket/Summary">Visualizza il riepilogo</a>
