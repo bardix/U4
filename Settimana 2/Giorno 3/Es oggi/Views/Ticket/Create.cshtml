@@ -1,25 +1,31 @@
 ﻿@model Ticket
-<h2>Nuovo Biglietto</h2>
-<form asp-action="Create">
-    <div>
-        <label>Nome:</label>
-        <input asp-for="FirstName" />
-    </div>
-    <div>
-        <label>Cognome:</label>
-        <input asp-for="LastName" />
-    </div>
-    <div>
-        <label>Sala:</label>
-        <select asp-for="Hall">
-            <option>SALA NORD</option>
-            <option>SALA EST</option>
-            <option>SALA SUD</option>
-        </select>
-    </div>
-    <div>
-        <label>Tipo:</label>
-        <input type="checkbox" asp-for="IsReduced" /> Ridotto
-    </div>
-    <button type="submit">Aggiungi</button>
-</form>
+@{
+    ViewBag.Title = "Nuovo Biglietto";
+}
+
+<div class="container mt-5">
+    <h2 class="mb-4">Nuovo Biglietto</h2>
+    <form asp-action="Create">
+        <div class="form-group">
+            <label for="FirstName">Nome:</label>
+            <input asp-for="FirstName" class="form-control" id="FirstName" />
+        </div>
+        <div class="form-group">
+            <label for="LastName">Cognome:</label>
+            <input asp-for="LastName" class="form-control" id="LastName" />
+        </div>
+        <div class="form-group">
+            <label for="Hall">Sala:</label>
+            <select asp-for="Hall" class="form-control" id="Hall">
+                <option>SALA NORD</option>
+                <option>SALA EST</option>
+                <option>SALA SUD</option>
+            </select>
+        </div>
+        <div class="form-group form-check">
+            <input type="checkbox" asp-for="IsReduced" class="form-check-input" id="IsReduced" />
+            <label  style="mt-5 mb-5" class="form-check-label" for="IsReduced">Ridotto</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Aggiungi</button>
+    </form>
+</div>

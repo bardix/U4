@@ -1,21 +1,33 @@
 ﻿@model IEnumerable<Ticket>
-<h2>Elenco dei Biglietti Venduti</h2>
-<table>
-    <tr>
-        <th>Nome</th>
-        <th>Cognome</th>
-        <th>Sala</th>
-        <th>Tipo</th>
-    </tr>
-    @foreach (var ticket in Model)
-    {
-        <tr>
-            <td>@ticket.FirstName</td>
-            <td>@ticket.LastName</td>
-            <td>@ticket.Hall</td>
-            <td>@(ticket.IsReduced ? "Ridotto" : "Intero")</td>
-        </tr>
-    }
-</table>
-<a href="/Ticket/Create">Aggiungi un nuovo biglietto</a>
-<a href="/Ticket/Summary">Visualizza il riepilogo</a>
+@{
+    ViewBag.Title = "Elenco dei Biglietti Venduti";
+}
+
+<div class="container mt-5">
+    <h2 class="mb-4">Elenco dei Biglietti Venduti</h2>
+    <table class="table table-striped table-bordered">
+        <thead class="thead-dark">
+            <tr>
+                <th>Nome</th>
+                <th>Cognome</th>
+                <th>Sala</th>
+                <th>Tipo</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var ticket in Model)
+            {
+                <tr>
+                    <td>@ticket.FirstName</td>
+                    <td>@ticket.LastName</td>
+                    <td>@ticket.Hall</td>
+                    <td>@(ticket.IsReduced ? "Ridotto" : "Intero")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <div class="mt-4">
+        <a href="/Ticket/Create" class="btn btn-primary">Aggiungi un nuovo biglietto</a>
+        <a href="/Ticket/Summary" class="btn btn-secondary">Visualizza il riepilogo</a>
+    </div>
+</div>

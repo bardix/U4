@@ -1,25 +1,35 @@
 ﻿@model SummaryViewModel
-<h2>Riepilogo Biglietti Venduti</h2>
-<table>
-    <tr>
-        <th>Sala</th>
-        <th>Totale Biglietti</th>
-        <th>Biglietti Ridotti</th>
-    </tr>
-    <tr>
-        <td>SALA NORD</td>
-        <td>@Model.NorthHallTickets</td>
-        <td>@Model.NorthHallReducedTickets</td>
-    </tr>
-    <tr>
-        <td>SALA EST</td>
-        <td>@Model.EastHallTickets</td>
-        <td>@Model.EastHallReducedTickets</td>
-    </tr>
-    <tr>
-        <td>SALA SUD</td>
-        <td>@Model.SouthHallTickets</td>
-        <td>@Model.SouthHallReducedTickets</td>
-    </tr>
-</table>
-<a href="/Ticket/Index">Torna all'elenco dei biglietti</a>
+@{
+    ViewBag.Title = "Riepilogo Biglietti Venduti";
+}
+
+<div class="container mt-5">
+    <h2 class="mb-4">Riepilogo Biglietti Venduti</h2>
+    <table class="table table-striped table-bordered">
+        <thead class="thead-dark">
+            <tr>
+                <th>Sala</th>
+                <th>Totale Biglietti</th>
+                <th>Biglietti Ridotti</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>SALA NORD</td>
+                <td>@Model.NorthHallTickets</td>
+                <td>@Model.NorthHallReducedTickets</td>
+            </tr>
+            <tr>
+                <td>SALA EST</td>
+                <td>@Model.EastHallTickets</td>
+                <td>@Model.EastHallReducedTickets</td>
+            </tr>
+            <tr>
+                <td>SALA SUD</td>
+                <td>@Model.SouthHallTickets</td>
+                <td>@Model.SouthHallReducedTickets</td>
+            </tr>
+        </tbody>
+    </table>
+    <a href="/Ticket/Index" class="btn btn-secondary mt-4">Torna all'elenco dei biglietti</a>
+</div>
