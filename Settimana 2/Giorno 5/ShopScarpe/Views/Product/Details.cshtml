@@ -1,7 +1,18 @@
 ﻿@model Product
 
-<h2>@Model.Name</h2>
-<p>Prezzo: € @Model.Price</p>
-<p>@Model.Description</p>
-<img src="@Model.ImageUrl" alt="Immagine di @Model.Name" style="max-width: 400px;" />
-<p><a asp-action="Index">Torna alla lista dei prodotti</a></p>
+@{
+    ViewData["Title"] = "Dettagli Prodotto";
+}
+
+<h2>Dettagli Prodotto</h2>
+
+<div class="detail-container">
+    <h3>@Model.Name</h3>
+    <p>@Model.Description</p>
+    <p><strong>Prezzo:</strong> @Model.Price €</p>
+    <img src="@Model.ImageUrl" alt="Immagine del prodotto" class="img-fluid" />
+</div>
+
+<div>
+    <a asp-action="Index" class="detail-link">Torna alla lista</a>
+</div>
