@@ -1,0 +1,13 @@
+﻿@model List<Product>
+
+<h2>Prodotti in vendita</h2>
+
+@foreach (var product in Model)
+{
+    <div style="border: 1px solid #ccc; padding: 10px; margin-bottom: 10px;">
+        <h3>@product.Name</h3>
+        <p>Prezzo: € @product.Price</p>
+        <img src="@product.ImageUrl" alt="Immagine di @product.Name" style="max-width: 200px;" />
+        <p><a asp-action="Details" asp-route-id="@product.Id">Dettagli</a></p>
+    </div>
+}
