@@ -65,13 +65,13 @@ SELECT MIN(RedditoMensile) AS RedditoMinimo FROM IMPIEGATO;
 
 -- k. Visualizzare gli impiegati assunti dall’01/01/2007 all’01/01/2008
 
-SELECT * FROM IMPIEGATO AS e JOIN IMPIEGO AS i ON e.IDImpiegato = i.IDImpiego
+SELECT * FROM IMPIEGATO AS e JOIN IMPIEGO AS i ON e.IDImpiegato = i.IDImpiegato
 WHERE i.Assunzione BETWEEN '2007-01-01' AND '2008-01-01';
 
 -- l. Tramite una query parametrica che identifichi il tipo di impiego, visualizzare tutti gli impiegati che corrispondono a quel tipo di impiego
 -- Ad esempio, per il tipo di impiego 'Full-time'
 
-SELECT * FROM IMPIEGATO AS e JOIN IMPIEGO AS i ON e.IDImpiegato = i.IDImpiego
+SELECT * FROM IMPIEGATO AS e JOIN IMPIEGO AS i ON e.IDImpiegato = i.IDImpiegato
 WHERE i.TipoImpiego = 'Full-time';
 
 -- m. Visualizzare l’età media dei lavoratori all’interno dell’azienda
