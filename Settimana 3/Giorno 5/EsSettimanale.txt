@@ -23,7 +23,7 @@ CREATE TABLE VERBALE (
     IDVerbale INT IDENTITY(1,1) PRIMARY KEY,
     IDAnagrafica INT NOT NULL,
     IDViolazione INT NOT NULL,
-    DataViolazione DATETIME NOT NULL,
+    DataViolazione DATETIME2 NOT NULL,
     IndirizzoViolazione VARCHAR(100) NOT NULL,
     Nominativo_Agente VARCHAR(100) NOT NULL,
     DataTrascrizioneVerbale DATETIME NOT NULL,
